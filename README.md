@@ -33,13 +33,11 @@ The app takes input data related to a person's health (such as age, blood pressu
 Setup and Installation
 Clone the Repository:
 
-bash
-Copy code
-git clone https://github.com/<your-username>/heart-disease-prediction.git
+```bash
+  git clone https://github.com/<your-username>/heart-disease-prediction.git
 Navigate to the Project Directory:
 
-bash
-Copy code
+```bash
 cd heart-disease-prediction
 Install the Dependencies:
 
