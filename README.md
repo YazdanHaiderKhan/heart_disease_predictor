@@ -23,66 +23,67 @@ The app takes input data related to a person's health (such as age, blood pressu
 
 - Python 3.6+
 - Install the required libraries using:
-  
+
   ```bash
   pip install -r requirements.txt
-Setup and Installation
-Clone the Repository:
+## Setup and Installation
 
-bash
-Copy code
-git clone https://github.com/<your-username>/heart-disease-prediction.git
-Navigate to the Project Directory:
+1.  **Clone the Repository**:
+    
+    ```bash
+    git clone https://github.com/<your-username>/heart-disease-prediction.git
+    ```
+    
+2.  **Navigate to the Project Directory**:
+    
+    ```bash
+    cd heart-disease-prediction
+    ```
+    
+3.  **Install the Dependencies**:
+    
+    ```bash
+    pip install -r requirements.txt
+    ```
+    
+4.  **Run the Application**:
+    
+    ```bash
+    streamlit run app.py
+    ```
+    
+    This will launch the app in your browser.
 
-bash
-Copy code
-cd heart-disease-prediction
-Install the Dependencies:
+## How It Works
 
-bash
-Copy code
-pip install -r requirements.txt
-Run the Application:
+1.  **Input Data**: The user is prompted to enter health parameters like age, blood pressure, cholesterol levels, etc.
+2.  **Prediction**: Based on the inputs, the model predicts whether the person is at **high risk** or **low risk** for heart disease.
+3.  **Output**: The result is displayed with an explanation of the prediction.
 
-bash
-Copy code
-streamlit run app.py
-This will launch the app in your browser.
-How It Works
-Input Data: The user is prompted to enter health parameters like age, blood pressure, cholesterol levels, etc.
-Prediction: Based on the inputs, the model predicts whether the person is at high risk or low risk for heart disease.
-Output: The result is displayed with an explanation of the prediction.
-Example Inputs
+## Example Inputs
+
 Here are some sample inputs you can use to test the application:
 
-Age: 55
-Sex: Male
-Chest Pain Type: Typical Angina
-Resting Blood Pressure: 140
-Serum Cholesterol: 250
-Fasting Blood Sugar: Yes
-Resting Electrocardiographic Results: Normal
-Maximum Heart Rate Achieved: 150
-Exercise Induced Angina: Yes
-Oldpeak (ST Depression): 1.2
-Slope of Peak Exercise ST Segment: Upsloping
-Number of Major Vessels: 0
-Thalassemia: Normal
-Conclusion
+*   **Age**: 55
+*   **Sex**: Male
+*   **Chest Pain Type**: Typical Angina
+*   **Resting Blood Pressure**: 140
+*   **Serum Cholesterol**: 250
+*   **Fasting Blood Sugar**: Yes
+*   **Resting Electrocardiographic Results**: Normal
+*   **Maximum Heart Rate Achieved**: 150
+*   **Exercise Induced Angina**: Yes
+*   **Oldpeak (ST Depression)**: 1.2
+*   **Slope of Peak Exercise ST Segment**: Upsloping
+*   **Number of Major Vessels**: 0
+*   **Thalassemia**: Normal
+
+## Conclusion
+
 This application serves as a tool to predict the risk of heart disease based on health data. It uses machine learning models to analyze and generate predictions, which can be helpful for individuals to assess their health.
 
-Future Enhancements
-Add more data: Use more features or a larger dataset for training.
-Improve Model: Explore other machine learning models for potentially better accuracy.
-User Authentication: Allow users to create accounts and store their predictions.
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
+## Future Enhancements
 
-### Steps to use:
-1. **Copy** the entire content above.
-2. **Go to your GitHub repository**.
-3. **Create or edit the `README.md` file** in the root directory of your project.
-4. **Paste** the copied content into the `README.md` file.
-5. **Commit** the changes, and GitHub will automatically render it in a clean, formatted way.
-
-If you encounter any issues or need further assistance with GitHub, feel free to let me know! 😊
+*   **Add more data**: Use more features or a larger dataset for training.
+*   **Improve Model**: Explore other machine learning models for potentially better accuracy.
+*   **User Authentication**: Allow users to create accounts and store their predictions.
